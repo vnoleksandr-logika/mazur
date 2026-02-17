@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bassie Bloomington</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom, #ffe6f2, #f9f0ff);
+        color: #5a3e6b;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+        background: #fff0fa;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(200, 150, 255, 0.3);
+    }
+
+    /* Верхній блок */
+    .top-section {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .logo {
+        width: 180px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .video-frame {
+        flex: 1;
+        height: 200px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 5px 20px rgba(180, 120, 255, 0.4);
+    }
+
+    .video-frame iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    /* Секції з фото */
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+
+    .section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .section img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 8px 25px rgba(150, 80, 200, 0.4);
+    }
+
+    .text-block {
+        flex: 1;
+        background: #ffe9fb;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        margin-top: 0;
+        color: #b347c2;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 0 0 20px 20px;
+        background: linear-gradient(to right, #d48fff, #ffb6e6);
+        color: white;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        .top-section, .section {
+            flex-direction: column;
+        }
+        .section:nth-child(even) {
+            flex-direction: column;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Верхній блок -->
+    <div class="top-section">
+        <img src="images/images (1).jfif" class="logo" alt="Bassie Logo">
+
+        <div class="video-frame">
+            <!-- Можеш вставити сюди посилання на відео -->
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+        </div>
+    </div>
+
+    <!-- Секція 1 -->
+    <div class="section">
+        <img src="images/images.jfif" alt="Bassie">
+        <div class="text-block">
+            <h2>Бессі Блумінгтон</h2>
+            <p>
+            Бессі Блумінгтон (англ. Bassie Bloomington), або просто Бессі (англ. Bassie) — одна з 4 івентових Тунів,
+            доданих 18 квітня 2025 разом з Еггсоном, Флайтом і Какао. Вона доступна тільки під час Великодня Івента
+            (до 19 або до 23 травня 21:59 2025).
+            </p>
+        </div>
+    </div>
+
+    <!-- Секція 2 -->
+    <div class="section">
+        <img src="images/завантаження (11).jfif" alt="Зовнішність">
+        <div class="text-block">
+            <h2>Зовнішність</h2>
+            <p>
+            Бессі — це коричневий плетений кошик з темнішими ручками та віями під очима.
+            Її рот сформований у маленьку скромну посмішку. Вона прикрашена фіолетовими
+            та рожевими маргаритками, носить фіолетову майку, спідницю у формі пелюсток
+            дзвіночка та світло-зелені смугасті гетри.
+            </p>
+        </div>
+    </div>
+
+    <!-- Секція 3 -->
+    <div class="section">
+        <img src="images/images (1).jfif" alt="Характер">
+        <div class="text-block">
+            <h2>Характер</h2>
+            <p>
+            Бессі сором'язлива і боязка. Вона може спокійно стояти під час анімації бездіяльності,
+            поправляючи спідницю. Часто порівнює себе з іншими Мейнами та боїться бути заміненою,
+            особливо Какао. У діалогах інколи починає нервово сміятися.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Мазур Злата. Усі права захищено.
+    </footer>
+
+</div>
+
+</body>
+</html>
